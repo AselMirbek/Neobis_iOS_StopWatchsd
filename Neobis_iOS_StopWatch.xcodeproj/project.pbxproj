@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		804EEBDD2AEE8446003103AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79D9AB42AE7DC98006DF364 /* Main.storyboard */; };
+		804EEBDE2AEE8447003103AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79D9AB42AE7DC98006DF364 /* Main.storyboard */; };
+		805910162AEE4FC6001FE558 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805910152AEE4FC6001FE558 /* TimerViewController.swift */; };
+		805910182AEE4FEB001FE558 /* StopWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805910172AEE4FEB001FE558 /* StopWatchViewController.swift */; };
+		D79D9AAF2AE7DC98006DF364 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79D9AAE2AE7DC98006DF364 /* AppDelegate.swift */; };
+		D79D9AB12AE7DC98006DF364 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79D9AB02AE7DC98006DF364 /* SceneDelegate.swift */; };
+		D79D9AB32AE7DC98006DF364 /* MainUiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79D9AB22AE7DC98006DF364 /* MainUiViewController.swift */; };
+		D79D9AB62AE7DC98006DF364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79D9AB42AE7DC98006DF364 /* Main.storyboard */; };
+		D79D9AB82AE7DC99006DF364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79D9AB72AE7DC99006DF364 /* Assets.xcassets */; };
+		D79D9ABB2AE7DC99006DF364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79D9AB92AE7DC99006DF364 /* LaunchScreen.storyboard */; };
+		D79D9AC62AE7DC99006DF364 /* Neobis_iOS_StopWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79D9AC52AE7DC99006DF364 /* Neobis_iOS_StopWatchTests.swift */; };
+		D79D9AD02AE7DC99006DF364 /* Neobis_iOS_StopWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79D9ACF2AE7DC99006DF364 /* Neobis_iOS_StopWatchUITests.swift */; };
+		D79D9AD22AE7DC99006DF364 /* Neobis_iOS_StopWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79D9AD12AE7DC99006DF364 /* Neobis_iOS_StopWatchUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D79D9AC22AE7DC99006DF364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79D9AA32AE7DC97006DF364 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D79D9AAA2AE7DC98006DF364;
+			remoteInfo = Neobis_iOS_StopWatch;
+		};
+		D79D9ACC2AE7DC99006DF364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79D9AA32AE7DC97006DF364 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D79D9AAA2AE7DC98006DF364;
+			remoteInfo = Neobis_iOS_StopWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		805910152AEE4FC6001FE558 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		805910172AEE4FEB001FE558 /* StopWatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchViewController.swift; sourceTree = "<group>"; };
+		D79D9AAB2AE7DC98006DF364 /* Neobis_iOS_StopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neobis_iOS_StopWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79D9AAE2AE7DC98006DF364 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D79D9AB02AE7DC98006DF364 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D79D9AB22AE7DC98006DF364 /* MainUiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUiViewController.swift; sourceTree = "<group>"; };
+		D79D9AB52AE7DC98006DF364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D79D9AB72AE7DC99006DF364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D79D9ABA2AE7DC99006DF364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D79D9ABC2AE7DC99006DF364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D79D9AC12AE7DC99006DF364 /* Neobis_iOS_StopWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neobis_iOS_StopWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79D9AC52AE7DC99006DF364 /* Neobis_iOS_StopWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neobis_iOS_StopWatchTests.swift; sourceTree = "<group>"; };
+		D79D9ACB2AE7DC99006DF364 /* Neobis_iOS_StopWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neobis_iOS_StopWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79D9ACF2AE7DC99006DF364 /* Neobis_iOS_StopWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neobis_iOS_StopWatchUITests.swift; sourceTree = "<group>"; };
+		D79D9AD12AE7DC99006DF364 /* Neobis_iOS_StopWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neobis_iOS_StopWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D79D9AA82AE7DC98006DF364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79D9ABE2AE7DC99006DF364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79D9AC82AE7DC99006DF364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D79D9AA22AE7DC97006DF364 = {
+			isa = PBXGroup;
+			children = (
+				D79D9AAD2AE7DC98006DF364 /* Neobis_iOS_StopWatch */,
+				D79D9AC42AE7DC99006DF364 /* Neobis_iOS_StopWatchTests */,
+				D79D9ACE2AE7DC99006DF364 /* Neobis_iOS_StopWatchUITests */,
+				D79D9AAC2AE7DC98006DF364 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D79D9AAC2AE7DC98006DF364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D79D9AAB2AE7DC98006DF364 /* Neobis_iOS_StopWatch.app */,
+				D79D9AC12AE7DC99006DF364 /* Neobis_iOS_StopWatchTests.xctest */,
+				D79D9ACB2AE7DC99006DF364 /* Neobis_iOS_StopWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D79D9AAD2AE7DC98006DF364 /* Neobis_iOS_StopWatch */ = {
+			isa = PBXGroup;
+			children = (
+				D79D9AAE2AE7DC98006DF364 /* AppDelegate.swift */,
+				D79D9AB02AE7DC98006DF364 /* SceneDelegate.swift */,
+				D79D9AB42AE7DC98006DF364 /* Main.storyboard */,
+				805910172AEE4FEB001FE558 /* StopWatchViewController.swift */,
+				805910152AEE4FC6001FE558 /* TimerViewController.swift */,
+				D79D9AB22AE7DC98006DF364 /* MainUiViewController.swift */,
+				D79D9AB72AE7DC99006DF364 /* Assets.xcassets */,
+				D79D9AB92AE7DC99006DF364 /* LaunchScreen.storyboard */,
+				D79D9ABC2AE7DC99006DF364 /* Info.plist */,
+			);
+			path = Neobis_iOS_StopWatch;
+			sourceTree = "<group>";
+		};
+		D79D9AC42AE7DC99006DF364 /* Neobis_iOS_StopWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				D79D9AC52AE7DC99006DF364 /* Neobis_iOS_StopWatchTests.swift */,
+			);
+			path = Neobis_iOS_StopWatchTests;
+			sourceTree = "<group>";
+		};
+		D79D9ACE2AE7DC99006DF364 /* Neobis_iOS_StopWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D79D9ACF2AE7DC99006DF364 /* Neobis_iOS_StopWatchUITests.swift */,
+				D79D9AD12AE7DC99006DF364 /* Neobis_iOS_StopWatchUITestsLaunchTests.swift */,
+			);
+			path = Neobis_iOS_StopWatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D79D9AAA2AE7DC98006DF364 /* Neobis_iOS_StopWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79D9AD52AE7DC99006DF364 /* Build configuration list for PBXNativeTarget "Neobis_iOS_StopWatch" */;
+			buildPhases = (
+				D79D9AA72AE7DC98006DF364 /* Sources */,
+				D79D9AA82AE7DC98006DF364 /* Frameworks */,
+				D79D9AA92AE7DC98006DF364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neobis_iOS_StopWatch;
+			productName = Neobis_iOS_StopWatch;
+			productReference = D79D9AAB2AE7DC98006DF364 /* Neobis_iOS_StopWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D79D9AC02AE7DC99006DF364 /* Neobis_iOS_StopWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79D9AD82AE7DC99006DF364 /* Build configuration list for PBXNativeTarget "Neobis_iOS_StopWatchTests" */;
+			buildPhases = (
+				D79D9ABD2AE7DC99006DF364 /* Sources */,
+				D79D9ABE2AE7DC99006DF364 /* Frameworks */,
+				D79D9ABF2AE7DC99006DF364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D79D9AC32AE7DC99006DF364 /* PBXTargetDependency */,
+			);
+			name = Neobis_iOS_StopWatchTests;
+			productName = Neobis_iOS_StopWatchTests;
+			productReference = D79D9AC12AE7DC99006DF364 /* Neobis_iOS_StopWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D79D9ACA2AE7DC99006DF364 /* Neobis_iOS_StopWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79D9ADB2AE7DC99006DF364 /* Build configuration list for PBXNativeTarget "Neobis_iOS_StopWatchUITests" */;
+			buildPhases = (
+				D79D9AC72AE7DC99006DF364 /* Sources */,
+				D79D9AC82AE7DC99006DF364 /* Frameworks */,
+				D79D9AC92AE7DC99006DF364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D79D9ACD2AE7DC99006DF364 /* PBXTargetDependency */,
+			);
+			name = Neobis_iOS_StopWatchUITests;
+			productName = Neobis_iOS_StopWatchUITests;
+			productReference = D79D9ACB2AE7DC99006DF364 /* Neobis_iOS_StopWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D79D9AA32AE7DC97006DF364 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D79D9AAA2AE7DC98006DF364 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					D79D9AC02AE7DC99006DF364 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = D79D9AAA2AE7DC98006DF364;
+					};
+					D79D9ACA2AE7DC99006DF364 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = D79D9AAA2AE7DC98006DF364;
+					};
+				};
+			};
+			buildConfigurationList = D79D9AA62AE7DC97006DF364 /* Build configuration list for PBXProject "Neobis_iOS_StopWatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D79D9AA22AE7DC97006DF364;
+			productRefGroup = D79D9AAC2AE7DC98006DF364 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D79D9AAA2AE7DC98006DF364 /* Neobis_iOS_StopWatch */,
+				D79D9AC02AE7DC99006DF364 /* Neobis_iOS_StopWatchTests */,
+				D79D9ACA2AE7DC99006DF364 /* Neobis_iOS_StopWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D79D9AA92AE7DC98006DF364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79D9ABB2AE7DC99006DF364 /* LaunchScreen.storyboard in Resources */,
+				D79D9AB82AE7DC99006DF364 /* Assets.xcassets in Resources */,
+				D79D9AB62AE7DC98006DF364 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79D9ABF2AE7DC99006DF364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804EEBDD2AEE8446003103AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79D9AC92AE7DC99006DF364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804EEBDE2AEE8447003103AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D79D9AA72AE7DC98006DF364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805910162AEE4FC6001FE558 /* TimerViewController.swift in Sources */,
+				D79D9AB32AE7DC98006DF364 /* MainUiViewController.swift in Sources */,
+				D79D9AAF2AE7DC98006DF364 /* AppDelegate.swift in Sources */,
+				D79D9AB12AE7DC98006DF364 /* SceneDelegate.swift in Sources */,
+				805910182AEE4FEB001FE558 /* StopWatchViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79D9ABD2AE7DC99006DF364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79D9AC62AE7DC99006DF364 /* Neobis_iOS_StopWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79D9AC72AE7DC99006DF364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79D9AD22AE7DC99006DF364 /* Neobis_iOS_StopWatchUITestsLaunchTests.swift in Sources */,
+				D79D9AD02AE7DC99006DF364 /* Neobis_iOS_StopWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D79D9AC32AE7DC99006DF364 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D79D9AAA2AE7DC98006DF364 /* Neobis_iOS_StopWatch */;
+			targetProxy = D79D9AC22AE7DC99006DF364 /* PBXContainerItemProxy */;
+		};
+		D79D9ACD2AE7DC99006DF364 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D79D9AAA2AE7DC98006DF364 /* Neobis_iOS_StopWatch */;
+			targetProxy = D79D9ACC2AE7DC99006DF364 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D79D9AB42AE7DC98006DF364 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D79D9AB52AE7DC98006DF364 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D79D9AB92AE7DC99006DF364 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D79D9ABA2AE7DC99006DF364 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D79D9AD32AE7DC99006DF364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D79D9AD42AE7DC99006DF364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D79D9AD62AE7DC99006DF364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TA9LBQP7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Neobis_iOS_StopWatch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neobis.Neobis-iOS-StopWatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D79D9AD72AE7DC99006DF364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TA9LBQP7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Neobis_iOS_StopWatch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neobis.Neobis-iOS-StopWatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D79D9AD92AE7DC99006DF364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TA9LBQP7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neobis.Neobis-iOS-StopWatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neobis_iOS_StopWatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Neobis_iOS_StopWatch";
+			};
+			name = Debug;
+		};
+		D79D9ADA2AE7DC99006DF364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TA9LBQP7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neobis.Neobis-iOS-StopWatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neobis_iOS_StopWatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Neobis_iOS_StopWatch";
+			};
+			name = Release;
+		};
+		D79D9ADC2AE7DC99006DF364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TA9LBQP7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neobis.Neobis-iOS-StopWatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neobis_iOS_StopWatch;
+			};
+			name = Debug;
+		};
+		D79D9ADD2AE7DC99006DF364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TA9LBQP7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neobis.Neobis-iOS-StopWatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neobis_iOS_StopWatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D79D9AA62AE7DC97006DF364 /* Build configuration list for PBXProject "Neobis_iOS_StopWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79D9AD32AE7DC99006DF364 /* Debug */,
+				D79D9AD42AE7DC99006DF364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79D9AD52AE7DC99006DF364 /* Build configuration list for PBXNativeTarget "Neobis_iOS_StopWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79D9AD62AE7DC99006DF364 /* Debug */,
+				D79D9AD72AE7DC99006DF364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79D9AD82AE7DC99006DF364 /* Build configuration list for PBXNativeTarget "Neobis_iOS_StopWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79D9AD92AE7DC99006DF364 /* Debug */,
+				D79D9ADA2AE7DC99006DF364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79D9ADB2AE7DC99006DF364 /* Build configuration list for PBXNativeTarget "Neobis_iOS_StopWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79D9ADC2AE7DC99006DF364 /* Debug */,
+				D79D9ADD2AE7DC99006DF364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D79D9AA32AE7DC97006DF364 /* Project object */;
+}

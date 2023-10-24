@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Ui View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainUiViewController" customModule="Neobis_iOS_StopWatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="erg-Ep-bPd">
+                                <rect key="frame" x="56" y="165" width="369" height="186"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="186" id="lzt-Eo-VSc"/>
+                                    <constraint firstAttribute="width" constant="369" id="xjD-Du-FxT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="73"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="31" contentMode="scaleToFill" semanticContentAttribute="spatial" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfM-od-668">
+                                <rect key="frame" x="56" y="583" width="72" height="49"/>
+                                <color key="backgroundColor" red="1" green="0.806052404" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="7hs-Zt-1kb"/>
+                                    <constraint firstAttribute="height" constant="49" id="gi2-gP-aOQ"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="viewFlipsideBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="stop.circle.fill" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="45"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eme-ea-qXY">
+                                <rect key="frame" x="160.66666666666666" y="583" width="72" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="50N-3O-Gz9"/>
+                                    <constraint firstAttribute="width" constant="72" id="VZT-0R-44h"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="viewFlipsideBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="pause.circle.fill" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="45"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" tag="27" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c96-hm-UdC">
+                                <rect key="frame" x="271" y="214" width="91" height="780"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="91" id="WK5-u8-qmY"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="restart.circle.fill" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="45"/>
+                                </buttonConfiguration>
+                            </button>
+                            <segmentedControl opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="g16-wA-egV">
+                                <rect key="frame" x="110" y="152" width="173" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="173" id="TTV-5O-8LL"/>
+                                    <constraint firstAttribute="height" constant="31" id="pU6-zO-r9a"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Timer" width="86"/>
+                                    <segment title="StopWatch"/>
+                                </segments>
+                            </segmentedControl>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timer" translatesAutoresizingMaskIntoConstraints="NO" id="C5Q-wX-0KY">
+                                <rect key="frame" x="117" y="59" width="159" height="78"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="159" id="ZKU-L3-hL8"/>
+                                    <constraint firstAttribute="height" constant="78" id="yJq-pa-peN"/>
+                                </constraints>
+                            </imageView>
+                            <datePicker contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dJ9-El-eJq">
+                                <rect key="frame" x="27" y="317" width="338" height="155"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="155" id="E05-is-MBc"/>
+                                    <constraint firstAttribute="width" constant="338" id="evp-Wn-1dE"/>
+                                </constraints>
+                            </datePicker>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="0.80784313725490198" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="c96-hm-UdC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="178" id="1N9-vp-YoU"/>
+                            <constraint firstItem="g16-wA-egV" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="78b-Yo-3yB"/>
+                            <constraint firstItem="Eme-ea-qXY" firstAttribute="baseline" secondItem="mfM-od-668" secondAttribute="baseline" constant="-3" id="FDs-uq-36H"/>
+                            <constraint firstItem="c96-hm-UdC" firstAttribute="leading" secondItem="Eme-ea-qXY" secondAttribute="trailing" constant="38.333333333333343" id="GIi-qM-77i"/>
+                            <constraint firstItem="Eme-ea-qXY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HSm-wR-nIt"/>
+                            <constraint firstItem="dJ9-El-eJq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="311" id="K2n-by-CKH"/>
+                            <constraint firstItem="g16-wA-egV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UQO-9X-wgj"/>
+                            <constraint firstItem="dJ9-El-eJq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V8z-gb-60O"/>
+                            <constraint firstItem="mfM-od-668" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-104.5" id="X6V-SW-t9J"/>
+                            <constraint firstItem="Eme-ea-qXY" firstAttribute="centerX" secondItem="C5Q-wX-0KY" secondAttribute="centerX" id="XZl-Hh-aex"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Eme-ea-qXY" secondAttribute="bottom" constant="192" id="asJ-zi-bse"/>
+                            <constraint firstItem="erg-Ep-bPd" firstAttribute="leading" secondItem="mfM-od-668" secondAttribute="leading" id="bjp-qt-x0c"/>
+                            <constraint firstItem="erg-Ep-bPd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="165" id="fGS-Sb-c1N"/>
+                            <constraint firstItem="Eme-ea-qXY" firstAttribute="baseline" secondItem="c96-hm-UdC" secondAttribute="baseline" constant="0.33333333333337123" id="oUd-vb-SBI"/>
+                            <constraint firstItem="C5Q-wX-0KY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="p5e-Cc-fXd"/>
+                            <constraint firstItem="g16-wA-egV" firstAttribute="top" secondItem="C5Q-wX-0KY" secondAttribute="bottom" constant="15" id="rfY-R0-RfH"/>
+                            <constraint firstItem="erg-Ep-bPd" firstAttribute="top" secondItem="C5Q-wX-0KY" secondAttribute="bottom" constant="28" id="uZA-vA-cQd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="containerView" destination="8bC-Xf-vdC" id="WHX-1v-Cxx"/>
+                        <outlet property="pauseButton" destination="Eme-ea-qXY" id="ynd-ES-0Rc"/>
+                        <outlet property="segmentedCotroller" destination="g16-wA-egV" id="KAs-ma-bly"/>
+                        <outlet property="startButton" destination="c96-hm-UdC" id="Fqx-qS-LtZ"/>
+                        <outlet property="stopButton" destination="mfM-od-668" id="05t-2L-cVF"/>
+                        <outlet property="timerLabel" destination="erg-Ep-bPd" id="j82-ly-n6N"/>
+                        <outlet property="timerPicker" destination="dJ9-El-eJq" id="RJY-1O-LT3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139.69465648854961" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pause.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="restart.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="stop.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="timer" width="512" height="512"/>
+        <systemColor name="viewFlipsideBackgroundColor">
+            <color red="0.12156862745098039" green="0.12941176470588237" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

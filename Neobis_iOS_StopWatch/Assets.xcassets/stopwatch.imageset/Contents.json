@@ -1,0 +1,43 @@
+{
+  "images" : [
+    {
+      "filename" : "png-clipart-timer-stopwatch-computer-icons-clock-clock-time-stopwatch-thumbnail.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    },
+    {
+      "filename" : "png-clipart-timer-stopwatch-computer-icons-clock-clock-time-stopwatch-thumbnail 1.png",
+      "idiom" : "iphone",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "3x"
+    },
+    {
+      "filename" : "png-clipart-timer-stopwatch-computer-icons-clock-clock-time-stopwatch-thumbnail 2.png",
+      "idiom" : "ipad",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "ipad",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
